@@ -1,5 +1,5 @@
 [package]
-name = "minigrep"
+name = "http"
 version = "0.1.0"
 authors = ["wangyuan <wangy10@chinatelecom.cn>"]
 

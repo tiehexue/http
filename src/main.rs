@@ -1,4 +1,4 @@
-extern crate minigrep;
+extern crate http;
 extern crate rand;
 
 use std::thread;
@@ -7,7 +7,7 @@ use std::net::TcpStream;
 use std::io::prelude::*;
 use std::fs;
 use std::time::Duration;
-use minigrep::pool::ThreadPool;
+use http::pool::ThreadPool;
 use rand::Rng;
 
 fn main() {
